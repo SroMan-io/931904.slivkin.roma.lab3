@@ -1,0 +1,77 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+		
+body{
+	margin:0;
+}
+				
+header {
+	background-color: green ;
+	color:white;
+	padding:10px;
+	font-size:24px;
+	text-align: center;
+}
+		
+footer {
+	background-color: black ;
+	color:white;
+	padding:6px;
+	font-size:18px;
+	text-align: center;	
+}
+
+div.cl{
+	margin-bottom:13px;
+}
+		
+a { 
+	color:white;	
+}
+		
+div.cl:hover {
+	background-color: green; 
+	color:white;
+}
+
+a:link {
+	text-decoration:underline;	
+}
+	
+.mainblok {
+	position: relative;
+	max-width: 800px;
+	background-color: white;
+	min-height: calc(100vh - 81px);
+	margin-left: auto;
+	margin-right: auto;		
+}
+					
+.redblok {
+	position: absolute;
+    float:left;
+    background-color: red;
+    width: 120px;	
+    height: calc(100% - 60px );                         
+    padding: 30px 30px 30px 50px;		
+}
+			
+.textblok {	
+	margin-left: 200px;
+	background-color: white;
+	padding:30px 30px 5px 30px;
+	text-align: justify;			
+	max-width: calc(100% - 260px);
+	line-height: 1.25em;	
+}
+
+.textblok::selection {
+	background-color: green;
+	color:white;
+}
+		
+.textblok::first-letter {
+	color: red;
+	font-size: 24px;
+}
